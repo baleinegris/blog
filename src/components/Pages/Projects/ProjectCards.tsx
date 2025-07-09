@@ -7,7 +7,7 @@ export default function ProjectCards(){
         {projects.map((project, index) =>
             {
                 return (
-                <a href={project.link} target="_blank" rel="noreferrer" className="no-underline p-4" key={index}>
+                <a href={project.link} rel="noreferrer" className="no-underline p-4" key={index}>
                 <div className="flex flex-col items-center justify-center p-[5px] cursor-pointer hover:opacity-110 opacity-100" >
                     <div className="p-6 w-[400px] h-[500px] flex flex-col gap-1 relative bg-gray-900 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
                         <img src={project.img} className="w-[full] h-[auto] rounded-lg"/>

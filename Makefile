@@ -5,3 +5,4 @@ run:
 destroy:
 	docker stop blog
 	docker rm blog
+	docker rmi baleinegris-blog:latest
