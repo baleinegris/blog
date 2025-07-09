@@ -1,4 +1,3 @@
-import Tilt from 'react-parallax-tilt';
 import { projects, technologyColors } from "../../../assets/constants";
 
 
@@ -18,7 +17,7 @@ export default function ProjectCards(){
                         {project.technologies.map((tech, index) =>
                             {
                                 return (
-                                <div className={`${technologyColors[tech]}`}>{tech}</div>
+                                <div className={`${technologyColors[tech]}`} key={index}>{tech}</div>
                                 )
                             }
                             )}

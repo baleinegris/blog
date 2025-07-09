@@ -1,10 +1,10 @@
-import portfolioPic from "./portfolioPic.png"
-import ripplePic from "./ripplePic.png"
-import scrabblePic from "./scrabblePic.png"
-import josephPic from "./josephPic.png"
-import baleinegrisPic from "./baleinegrisPic.png"
-import floodFillPic from "./flood-fill-img.png"
-import integralParser from "./integral-parser-pic.png"
+// import portfolioPic from "./portfolioPic.png"
+// import ripplePic from "./ripplePic.png"
+// import scrabblePic from "./scrabblePic.png"
+// import josephPic from "./josephPic.png"
+// import baleinegrisPic from "./baleinegrisPic.png"
+// import floodFillPic from "./flood-fill-img.png"
+// import integralParser from "./integral-parser-pic.png"
 
 
 interface ContentWithLinks {
@@ -38,57 +38,65 @@ export const ProjectsBlurb: ContentWithLinks = {
 
 export const projects = [
     {
-        name: "Flood Fill",
-        img: floodFillPic,
-        description: "Web App that uses a custom trained Neural Net to make predictions on flood risks for users to invest confidently. 2nd Place Winner of NewHacks 2024.",
-        link: "https://devpost.com/software/flood-fill",
-        technologies: ["React", "Tailwind", "Python"],
+      name: "Rocinante",
+      img: "/Rocinante.png",
+      description: "My Raspberry Pi 4 web server, running Docker, Nginx, and Let's Encrypt SSL certificates. It hosts all of my projects, including this blog!",
+      link: "/projects/rocinante",
+      technologies: ["Raspberry Pi", "Nginx", "Docker"]
     },
-    {
-        name: "Integral Parser",
-        img: integralParser,
-        description: "Chrome Extension that parses raw images of integrals using OpenAI GPT-4o mini and generates a link to the Wolfram Alpha page of this integral.",
-        link: "https://github.com/baleinegris/Integral-Parser-Extension",
-        technologies: ["React", "OpenAI"],
-    },
-    {
-        name: "Portfolio",
-        img: portfolioPic,
-        description: "This website! Built with React, Tailwind CSS, and Three.js.",
-        link: "",
-        technologies: ["React", "Tailwind", "Three.js"],
-    }, 
-    {
-        name: "Scrabble",
-        img: scrabblePic,
-        description: "Online Multiplayer Scrabble web application that allows users to create games, join games, and play against each other in real-time.",
-        link: "https://withcomment.github.io/scrabble/",
-        technologies: ["React", "Java"],
-
-    },
-    {
-        name: "Ripple: AI Playlist Extender",
-        img: ripplePic,
-        description: "Web application that allows users to sign into their Spotify account and extend their playlists by using Suno AI to AI generate brand new music that matches the feel of the playlist.",
-        link: "https://baleinegris.github.io/suno-extender/",
-        technologies: ["React", "Python", "Firebase"],
-
-    }, 
-    {
-        name: "Joseph Heath Website",
-        img: josephPic,
-        description: "Personal website created for Professor Joseph Heath at the University of Toronto.",
-        link: "http://individual.utoronto.ca/jheath/",
-        technologies: ["React"],
-    },
-    {
-        name: "Personal Website",
-        img: baleinegrisPic,
-        description: "My first website created. Personal website for blogging and updates. Includes a working Tetris game!",
-        link: "https://baleinegris.github.io/",
-        technologies: ["HTML", "CSS", "JavaScript"],
-    }
 ]
+//     {
+//         name: "Flood Fill",
+//         img: floodFillPic,
+//         description: "Web App that uses a custom trained Neural Net to make predictions on flood risks for users to invest confidently. 2nd Place Winner of NewHacks 2024.",
+//         link: "https://devpost.com/software/flood-fill",
+//         technologies: ["React", "Tailwind", "Python"],
+//     },
+//     {
+//         name: "Integral Parser",
+//         img: integralParser,
+//         description: "Chrome Extension that parses raw images of integrals using OpenAI GPT-4o mini and generates a link to the Wolfram Alpha page of this integral.",
+//         link: "https://github.com/baleinegris/Integral-Parser-Extension",
+//         technologies: ["React", "OpenAI"],
+//     },
+//     {
+//         name: "Portfolio",
+//         img: portfolioPic,
+//         description: "This website! Built with React, Tailwind CSS, and Three.js.",
+//         link: "",
+//         technologies: ["React", "Tailwind", "Three.js"],
+//     }, 
+//     {
+//         name: "Scrabble",
+//         img: scrabblePic,
+//         description: "Online Multiplayer Scrabble web application that allows users to create games, join games, and play against each other in real-time.",
+//         link: "https://withcomment.github.io/scrabble/",
+//         technologies: ["React", "Java"],
+
+//     },
+//     {
+//         name: "Ripple: AI Playlist Extender",
+//         img: ripplePic,
+//         description: "Web application that allows users to sign into their Spotify account and extend their playlists by using Suno AI to AI generate brand new music that matches the feel of the playlist.",
+//         link: "https://baleinegris.github.io/suno-extender/",
+//         technologies: ["React", "Python", "Firebase"],
+
+//     }, 
+//     {
+//         name: "Joseph Heath Website",
+//         img: josephPic,
+//         description: "Personal website created for Professor Joseph Heath at the University of Toronto.",
+//         link: "http://individual.utoronto.ca/jheath/",
+//         technologies: ["React"],
+//     },
+//     {
+//         name: "Personal Website",
+//         img: baleinegrisPic,
+//         description: "My first website created. Personal website for blogging and updates. Includes a working Tetris game!",
+//         link: "https://baleinegris.github.io/",
+//         technologies: ["HTML", "CSS", "JavaScript"],
+//     }
+// ]
 
 export const technologyColors = {
     "React": "bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent",
@@ -105,4 +113,7 @@ export const technologyColors = {
     "Three.js": "bg-gradient-to-r to-black from-slate-900 bg-clip-text text-transparent",
     "Tailwind": "bg-cyan-300 bg-clip-text text-transparent",
     "OpenAI": "bg-gradient-to-r from-green-500 to-white bg-clip-text text-transparent",
+    "Raspberry Pi": "bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent",
+    "Nginx": "bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent",
+    "Docker": "bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent",
 }

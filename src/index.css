@@ -41,6 +41,16 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 2.4em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.1;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -87,4 +97,21 @@ button:focus-visible {
 .navbutton:hover::before{
     width: 100%;
     color: grey
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  display: list-item;
 }
