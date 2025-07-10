@@ -25,6 +25,8 @@ So what is the project? The project was getting my Raspberry Pi 4 (Rocinante) in
 
 &nbsp;
 
+## Project Diagram
+<img src="../Rocinante Diagram.png">
 
 ## Project Components
 ___
