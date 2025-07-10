@@ -125,3 +125,27 @@ li {
 .markdown-content a:hover {
     color: #1d4ed8; /* blue-700 */
 }
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  0% {
+    --angle: 0deg;
+  }
+  25% {
+    --angle: 80deg;
+  }
+  50% {
+    --angle: 180deg;
+  }
+  75% {
+    --angle: 280deg;
+  }
+  100% {
+    --angle: 360deg;
+  }
+}

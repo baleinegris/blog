@@ -3,7 +3,7 @@
 // import scrabblePic from "./scrabblePic.png"
 // import josephPic from "./josephPic.png"
 // import baleinegrisPic from "./baleinegrisPic.png"
-// import floodFillPic from "./flood-fill-img.png"
+import floodFillPic from "./flood-fill-img.png"
 // import integralParser from "./integral-parser-pic.png"
 
 
@@ -30,7 +30,7 @@ export const IntroBlurb: ContentWithLinks = {
 }
 
 export const ProjectsBlurb: ContentWithLinks = {
-  text: "Here are the write-ups for my projects. I wanted a place to nerd about about things like the architecture, the tech stack, and the deployment process. It turns out people aren't very interested in hearing about it, so I figured I would write it on the internet. These serve as devlogs of sorts, longer than a README, and talk about the process of building and deploying these projects, as well as thoughts and things I learned."
+  text: "Here are the write-ups for my projects. I wanted a place to nerd out about things like the architecture, the tech stack, and the deployment process. It turns out people aren't very interested in hearing about it, so I figured I would write it on the internet. These serve as devlogs of sorts, longer than a README, and talk about the process of building and deploying these projects, as well as thoughts and things I learned."
   ,
   links: {
   }
@@ -44,14 +44,14 @@ export const projects = [
       link: "/projects/rocinante",
       technologies: ["Raspberry Pi", "Nginx", "Docker"]
     },
+    {
+        name: "Flood Fill",
+        img: floodFillPic,
+        description: "Web App that uses a custom trained Neural Net to make predictions on flood risks for users to invest confidently. 2nd Place Winner of NewHacks 2024.",
+        link: "/projects/flood-fill",
+        technologies: ["React", "Tailwind", "Python"],
+    },
 ]
-//     {
-//         name: "Flood Fill",
-//         img: floodFillPic,
-//         description: "Web App that uses a custom trained Neural Net to make predictions on flood risks for users to invest confidently. 2nd Place Winner of NewHacks 2024.",
-//         link: "https://devpost.com/software/flood-fill",
-//         technologies: ["React", "Tailwind", "Python"],
-//     },
 //     {
 //         name: "Integral Parser",
 //         img: integralParser,
