@@ -26,13 +26,13 @@ export default function ProjectWriteUp(){
     }, [name]);
 
     return (
-        <>
+        <div className='absolute top-[15%]'>
         <Link to='/projects' className='ml-4 navbutton relative'>{"<-"} Back to Projects</Link>
-        <div className="w-full h-full p-10 bg-gray-300 text-black">
+        <div className="w-full h-full p-10 bg-gray-300 text-black markdown-content">
             <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
                 {content}
             </Markdown>
         </div>
-        </>
+        </div>
     );
 }
