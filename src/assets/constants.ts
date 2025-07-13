@@ -119,3 +119,12 @@ export const technologyColors = {
     "TensorFlow": "bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent",
     
 }
+
+export const postBanners = [
+  {
+    title: "Welcome to the Blog!",
+    content: "I just started this new blog! It's a work in progress, but working on it's a nice distraction from work and research. It'll probably be pretty quiet during the school year, but this summer I'll write a few posts about projects or books I'm reading. Stay tuned!",
+    date: "July 12, 2025",
+    href: "/posts/welcome"
+  },
+]
