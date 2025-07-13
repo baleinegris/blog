@@ -11,13 +11,16 @@ So what is the project? The project was getting my Raspberry Pi 4 (Rocinante) in
 <div style="display: flex; align-items: center; justify-content: space-between;">
 <ul>
     <li>
-        <img src="https://skillicons.dev/icons?i=raspberrypi" style="display: inline; vertical-align: middle;" /> Raspberry Pi 4 
+        <img src="https://go-skill-icons.vercel.app/api/icons?i=raspberrypi" style="display: inline; vertical-align: middle;" /> Raspberry Pi 4
     </li>
     <li>
-        <img src="https://skillicons.dev/icons?i=nginx" style="display: inline; vertical-align: middle;" /> Nginx
+        <img src="https://go-skill-icons.vercel.app/api/icons?i=nginx" style="display: inline; vertical-align: middle;" /> Nginx
     </li>
     <li>
-        <img src="https://skillicons.dev/icons?i=docker" style="display: inline; vertical-align: middle;" /> Docker 
+        <img src="https://go-skill-icons.vercel.app/api/icons?i=docker" style="display: inline; vertical-align: middle;" /> Docker
+    </li>
+    <li>
+        <img src="https://go-skill-icons.vercel.app/api/icons?i=portainer" style="display: inline; vertical-align: middle;" /> Portainer
     </li>
 </ul>
 <img src="../Rocinante.png" height="300" width="300" alt="Rocinante">

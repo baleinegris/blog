@@ -49,7 +49,7 @@ export const projects = [
         img: floodFillPic,
         description: "Web App that uses a custom trained Neural Net to make predictions on flood risks for users to invest confidently. 2nd Place Winner of NewHacks 2024.",
         link: "/projects/flood-fill",
-        technologies: ["React", "Tailwind", "Python"],
+        technologies: ["TensorFlow", "React", "Tailwind", "Python"],
     },
 ]
 //     {
@@ -116,4 +116,6 @@ export const technologyColors = {
     "Raspberry Pi": "bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent",
     "Nginx": "bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent",
     "Docker": "bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent",
+    "TensorFlow": "bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent",
+    
 }
