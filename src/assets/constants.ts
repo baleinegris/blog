@@ -38,6 +38,13 @@ export const ProjectsBlurb: ContentWithLinks = {
 
 export const projects = [
     {
+      name: "Chat CS Agent",
+      img: "/chat-cs-logo.png",
+      description: "A Web Crawler which vector embeds chunks from the UofT Department of Computer Science website, used as a knowledge database for a RAG Chatbot.",
+      link: "/projects/chat-cs",
+      technologies: ["Go", "Qdrant", "React", "LangChain"],
+    },
+    {
       name: "Rocinante",
       img: "/Rocinante.png",
       description: "My Raspberry Pi 4 web server, running Docker, Nginx, and Let's Encrypt SSL certificates. It hosts all of my projects, including this blog!",
@@ -117,7 +124,9 @@ export const technologyColors = {
     "Nginx": "bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent",
     "Docker": "bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent",
     "TensorFlow": "bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent",
-    
+    "Go": "bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent",
+    "Qdrant": "bg-gradient-to-r from-blue-500 to-red-600 bg-clip-text text-transparent",
+    "LangChain": "bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent",    
 }
 
 export const postBanners = [
