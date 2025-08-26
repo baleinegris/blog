@@ -38,6 +38,13 @@ export const ProjectsBlurb: ContentWithLinks = {
 
 export const projects = [
     {
+      name: "Room Booking Escalation",
+      img: "/room-booking-predictor.png",
+      description: "Research project for automating room booking escalation using Machine Learning",
+      link: "/projects/room-booking",
+      technologies: ["HuggingFace", "Jupyter Notebook"]
+    },
+    {
       name: "Chat CS Agent",
       img: "/chat-cs-logo.png",
       description: "A Web Crawler which vector embeds chunks from the UofT Department of Computer Science website, used as a knowledge database for a RAG Chatbot.",
@@ -126,8 +133,10 @@ export const technologyColors = {
     "TensorFlow": "bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent",
     "Go": "bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent",
     "Qdrant": "bg-gradient-to-r from-blue-500 to-red-600 bg-clip-text text-transparent",
-    "LangChain": "bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent",    
-}
+    "LangChain": "bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent",
+    "HuggingFace": "bg-gradient-to-r from-purple-500 to-purple-600 bg-clip-text text-transparent",
+    "Jupyter Notebook": "bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent"
+  }
 
 export const postBanners = [
   {
