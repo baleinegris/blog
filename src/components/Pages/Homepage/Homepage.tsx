@@ -1,5 +1,5 @@
 import { IntroBlurb } from '../../../assets/constants';
-import { interpolateTextWithLinks } from '../../../util/textInterpolation';
+import { interpolateTextWithLinks } from '../../../util/textInterpolation.tsx';
 import { Link } from 'react-router-dom';
 
 export default function Homepage() {

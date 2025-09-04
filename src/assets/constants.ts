@@ -5,7 +5,10 @@
 // import baleinegrisPic from "./baleinegrisPic.png"
 import floodFillPic from "./flood-fill-img.png"
 // import integralParser from "./integral-parser-pic.png"
-
+import TheBookOfWhy from "/books/BookOfWhy.jpg"
+import HowNotToBeWrong from "/books/HowNotToBeWrong.jpg"
+import TheEthicalAlgorithm from "/books/TheEthicalAlgorithm.jpg"
+import WhoWeAre from "/books/WhoWeAre.jpg"
 
 interface ContentWithLinks {
   text: string;
@@ -147,25 +150,37 @@ export const postBanners = [
   },
 ]
 
-export const BooksTierList = [
+export const BooksTierListRaw = [
   {
-    title: "The Book of Why",
-    author: "Judea Pearl",
+    content: {
+      title: "The Book of Why",
+      author: "Judea Pearl",
+      img: TheBookOfWhy,
+    },
     tier: "A"
   },
   {
-    title: "How Not to Be Wrong: The Power of Mathematical Thinking",
-    author: "Jordan Ellenberg",
-    Tier: "A"
+    content: {
+      title: "How Not to Be Wrong: The Power of Mathematical Thinking",
+      author: "Jordan Ellenberg",
+      img: HowNotToBeWrong,
+    },
+    tier: "A"
   },
   {
-    title: "The Ethical Algorithm",
-    author: "Michael Kearns and Aaron Roth",
+    content: {
+      title: "The Ethical Algorithm",
+      author: "Michael Kearns and Aaron Roth",
+      img: TheEthicalAlgorithm,
+    },
     tier: "S"
   },
   {
-    title: "Who We Are and How We Got Here",
-    author: "David Christian",
+    content: {
+      title: "Who We Are and How We Got Here",
+      author: "David Christian",
+      img: WhoWeAre,
+    },
     tier: "Not Done"
   }
 ]
