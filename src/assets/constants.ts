@@ -146,3 +146,26 @@ export const postBanners = [
     href: "/posts/welcome"
   },
 ]
+
+export const BooksTierList = [
+  {
+    title: "The Book of Why",
+    author: "Judea Pearl",
+    tier: "A"
+  },
+  {
+    title: "How Not to Be Wrong: The Power of Mathematical Thinking",
+    author: "Jordan Ellenberg",
+    Tier: "A"
+  },
+  {
+    title: "The Ethical Algorithm",
+    author: "Michael Kearns and Aaron Roth",
+    tier: "S"
+  },
+  {
+    title: "Who We Are and How We Got Here",
+    author: "David Christian",
+    tier: "Not Done"
+  }
+]

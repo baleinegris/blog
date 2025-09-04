@@ -1,15 +1,12 @@
 # Automated Room Booking Escalation
 ___
+![NLI Example](../Final%20Poster.png)
 
 &nbsp;
 
 ### Abstract
 I worked on this project as a summer research project under the supervision of Professor Alice Gao and Professor Steve Engels of the University of Toronto. The University of Toronto gets about 1000 room booking requests per year, about 50 of which are escalated, requiring manual review by administration. We were tasked with automating this process using machine learning tools.
 The main challenge is that the final pipeline cannot be trained off of past data, both because it is unavailable, but also because any change in the UofT Room Booking Policy should immediately be reflected in the decisions. Therefore, my approach aimed to use pretrained models with general understanding of text, and use them to decide whether requests complied with UofT Room Booking Policies
-
-&nbsp;
-
-![NLI Example](../Final%20Poster.png)
 
 &nbsp;
 
