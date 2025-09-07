@@ -9,6 +9,8 @@ interface TierListElement {
     tier: string;
 }
 
+import { Book } from "./Book";
+
 export default function TierList( { elements } : { elements: TierListElement[] } ) {
     const tiers = ["S", "A", "B", "C", "D", "Not Done"];
     const tierColors: { [key: string]: string } = {
@@ -33,7 +35,7 @@ export default function TierList( { elements } : { elements: TierListElement[] }
                             {tierBooks.length > 0 ? (
                                 <div className="h-full flex flex-wrap gap-4">
                                     {tierBooks.map( (el) => (
-                                            <img src={el.content.img} alt={el.content.title} className="h-40 object-cover mb-4 rounded"/>
+                                            <Book key={el.content.title} bookContent={el.content} />
                                     ))}
                                 </div>
                             ) : (

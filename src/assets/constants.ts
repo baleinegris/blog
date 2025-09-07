@@ -9,6 +9,7 @@ import TheBookOfWhy from "/books/BookOfWhy.jpg"
 import HowNotToBeWrong from "/books/HowNotToBeWrong.jpg"
 import TheEthicalAlgorithm from "/books/TheEthicalAlgorithm.jpg"
 import WhoWeAre from "/books/WhoWeAre.jpg"
+import { BookProps } from "../schemas/schemas"
 
 interface ContentWithLinks {
   text: string;
@@ -152,7 +153,7 @@ export const postBanners = [
 
 export const BooksTierListRaw = [
   {
-    content: {
+    content : {
       title: "The Book of Why",
       author: "Judea Pearl",
       img: TheBookOfWhy,
@@ -161,7 +162,7 @@ export const BooksTierListRaw = [
   },
   {
     content: {
-      title: "How Not to Be Wrong: The Power of Mathematical Thinking",
+      title: "How Not to Be Wrong",
       author: "Jordan Ellenberg",
       img: HowNotToBeWrong,
     },
