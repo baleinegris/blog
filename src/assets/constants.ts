@@ -9,7 +9,6 @@ import TheBookOfWhy from "/books/BookOfWhy.jpg"
 import HowNotToBeWrong from "/books/HowNotToBeWrong.jpg"
 import TheEthicalAlgorithm from "/books/TheEthicalAlgorithm.jpg"
 import WhoWeAre from "/books/WhoWeAre.jpg"
-import { BookProps } from "../schemas/schemas"
 
 interface ContentWithLinks {
   text: string;
