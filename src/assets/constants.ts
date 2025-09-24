@@ -40,12 +40,19 @@ export const ProjectsBlurb: ContentWithLinks = {
 }
 
 export const projects = [
+      {
+      name: "Guardin",
+      img: "/guardin.png",
+      description: "Federated Learning platform for healthcare professionals to collaboratively train AI models on sensitive data. First place winner of Toronto Bioinformatics Hackathon 2025.",
+      link: "/projects/guardin",
+      technologies: ["Flower", "PyTorch", "Docker", "Kubernetes"]
+    },
     {
       name: "Room Booking Escalation",
       img: "/room-booking-predictor.png",
-      description: "Research project for automating room booking escalation using Machine Learning",
+      description: "Research project for automating room booking escalation using Natural Language Inference",
       link: "/projects/room-booking",
-      technologies: ["HuggingFace", "Jupyter Notebook"]
+      technologies: ["HuggingFace", "PyTorch", "Jupyter Notebook"]
     },
     {
       name: "Chat CS Agent",
@@ -138,7 +145,10 @@ export const technologyColors = {
     "Qdrant": "bg-gradient-to-r from-blue-500 to-red-600 bg-clip-text text-transparent",
     "LangChain": "bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent",
     "HuggingFace": "bg-gradient-to-r from-purple-500 to-purple-600 bg-clip-text text-transparent",
-    "Jupyter Notebook": "bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent"
+    "Jupyter Notebook": "bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent",
+    "Flower": "bg-gradient-to-r from-white to-yellow-600 bg-clip-text text-transparent",
+    "PyTorch": "bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent",
+    "Kubernetes": "bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent",
   }
 
 export const postBanners = [
