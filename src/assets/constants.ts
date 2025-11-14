@@ -23,13 +23,7 @@ interface LinkPlaceholder {
 }
 
 export const IntroBlurb: ContentWithLinks = {
-  text: "This is a simple blog I'm writing as a less fancy version of my portfolio (which lives {portfolioLink}). This website is less about showing off skills and more for project write ups and occasionally thoughts on books or life.",
-  links: {
-    portfolioLink: {
-      text: "here",
-      url: "https://portfolio.baleinegris.site",
-    },
-  },
+  text: "This is a simple blog I've written to hold project write-ups/devlogs as well as some fun opinions or occasional posts.",
 }
 
 export const ProjectsBlurb: ContentWithLinks = {
