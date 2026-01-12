@@ -3,7 +3,7 @@ ___
 
 &nbsp;
 ### Project Description
-Flood Fill is a full stack application that I developped alongside [Tyson Caul](https://github.com/tjcaul) and [Alex Lewis](https://github.com/alexlewis9) during the UofT NewHacks 2024 Hackathon. This goal of the project is to generate a flood risk assessment for any location in Canada, as floods are the most common and costly disaster in Canada. With climate change increasing flood risks, and housing prices on the rise, the goal of Flood Fill is to allow users to make smart decisions when shopping for real estate. Flood Fill uses a React frontend with integrated Google Maps, and uses a TensorFlow Neural Net in the backend to make predictions (served via Flask). Check out the [Devpost](https://devpost.com/software/flood-fill) for more info!
+Flood Fill is a full stack application that I developped alongside [Tyson Caul](https://github.com/tjcaul) and [Alex Lewis](https://github.com/alexlewis9) during the UofT NewHacks 2024 Hackathon. This goal of the project is to generate a flood risk assessment for any location in Canada, as floods are the most common and costly disaster in Canada. With climate change increasing flood risks, and housing prices on the rise, the goal of Flood Fill is to allow users to make smart decisions when shopping for real estate. Flood Fill uses a React frontend with integrated Google Maps, and uses a TensorFlow Neural Net in the backend to make predictions (served via Flask). Check out the [Devpost](https://devpost.com/software/flood-fill) for more info, and [GitHub](https://github.com/baleinegris/flood-fill) for the code!
 
 &nbsp;
 
