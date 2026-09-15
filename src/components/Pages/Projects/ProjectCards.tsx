@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { projects, technologyColors } from "../../../assets/constants";
 
 
@@ -7,7 +8,7 @@ export default function ProjectCards(){
         {projects.map((project, index) =>
             {
                 return (
-                <a href={project.link} rel="noreferrer" className="no-underline p-4" key={index}>
+                <Link to={project.link} className="no-underline p-4" key={index}>
                 <div className="flex flex-col items-center justify-center p-[5px] cursor-pointer" >
                     <div className="p-6 w-[400px] h-[500px] flex flex-col gap-1 bg-gray-900 hover:bg-gray-300 text-white hover:text-black transition-all rounded-lg shadow-lg hover:shadow-2xl duration-300 relative">
                         <img src={project.img} className="w-[full] h-[auto] rounded-lg"/>
@@ -26,7 +27,7 @@ export default function ProjectCards(){
                         </div>
                     </div>
                 </div>
-                </a>
+                </Link>
                 )
             }
             )}

@@ -11,7 +11,7 @@ export default function ProjectWriteUp(){
     useEffect(() => {
         const loadContent = async () => {
             try {
-                const response = await fetch(`/projects/${name}.md`);
+                const response = await fetch(`${import.meta.env.BASE_URL}projects/${name}.md`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }

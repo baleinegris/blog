@@ -18,7 +18,7 @@ export default function Homepage() {
                 </Link>
             </div>
         </div>
-        <img src='/baleinegris-logo.png' className='hidden md:block rounded-4xl glowing mr-4 ml-4'/>
+        <img src={`${import.meta.env.BASE_URL}baleinegris-logo.png`} className='hidden md:block rounded-4xl glowing mr-4 ml-4'/>
         </div>
     );
 }

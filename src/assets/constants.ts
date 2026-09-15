@@ -37,13 +37,13 @@ export const papers = [
   {
     name: "Correcting Mode Collapse in Silicon Sampling with Semantic Similarity Rating",
     authors: ["Oscar Heath", "Rohan Alexander"],
-    img: "/papers/silicon-sampling.png",
+    img: `${import.meta.env.BASE_URL}papers/silicon-sampling.png`,
     link: "https://arxiv.org/abs/2607.28550",
   },
   {
     name: "Systematic Review of Academic Procrastination Interventions in Computing Higher Education",
     authors: ["Daniel Cheng", "Oscar Heath", "Daniyaal Farooqi", "Evelyn Chou", "Alice Gao", "Jonathan Calver"],
-    img: "/papers/systematic-lit.png",
+    img: `${import.meta.env.BASE_URL}papers/systematic-lit.png`,
     link: "https://arxiv.org/abs/2604.03248",
   },
 ]
@@ -51,28 +51,28 @@ export const papers = [
 export const projects = [
     {
       name: "Guardin",
-      img: "/guardin.png",
+      img: `${import.meta.env.BASE_URL}guardin.png`,
       description: "Federated Learning platform for healthcare professionals to collaboratively train AI models on sensitive data. First place winner of Toronto Bioinformatics Hackathon 2025.",
       link: "/projects/guardin",
       technologies: ["Flower", "PyTorch", "Docker", "Kubernetes"]
     },
     {
       name: "Room Booking Escalation",
-      img: "/room-booking-predictor.png",
+      img: `${import.meta.env.BASE_URL}room-booking-predictor.png`,
       description: "Research project for automating room booking escalation using Natural Language Inference",
       link: "/projects/room-booking",
       technologies: ["HuggingFace", "PyTorch", "Jupyter Notebook"]
     },
     {
       name: "Chat CS Agent",
-      img: "/chat-cs-logo.png",
+      img: `${import.meta.env.BASE_URL}chat-cs-logo.png`,
       description: "A Web Crawler which vector embeds chunks from the UofT Department of Computer Science website, used as a knowledge database for a RAG Chatbot.",
       link: "/projects/chat-cs",
       technologies: ["Go", "Qdrant", "React", "LangChain"],
     },
     {
       name: "Rocinante",
-      img: "/Rocinante.png",
+      img: `${import.meta.env.BASE_URL}Rocinante.png`,
       description: "My Raspberry Pi 4 web server, running Docker, Nginx, and Let's Encrypt SSL certificates. It hosts all of my projects, including this blog!",
       link: "/projects/rocinante",
       technologies: ["Raspberry Pi", "Nginx", "Docker"]
