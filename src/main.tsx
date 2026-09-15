@@ -11,6 +11,7 @@ import PostWriteUp from './components/Pages/Posts/Write-ups/PostWriteUp.tsx';
 import TierList from './components/Pages/Opinions/Books/TierList.tsx';
 import { BooksTierListRaw } from './assets/constants.ts';
 import Opinions from './components/Pages/Opinions/Opinions.tsx';
+import Papers from './components/Pages/Papers/Papers.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Homepage />} />
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/projects/:name" element={<ProjectWriteUp/>}/>
+        <Route path="/papers" element={<Papers/>} />
         <Route path='/posts' element={<Posts/>} />
         <Route path='/posts/:name' element={<PostWriteUp/>} />
         <Route path='/opinions' element={<Opinions/>} />
