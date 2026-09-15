@@ -33,8 +33,23 @@ export const ProjectsBlurb: ContentWithLinks = {
   }
 }
 
+export const papers = [
+  {
+    name: "Correcting Mode Collapse in Silicon Sampling with Semantic Similarity Rating",
+    authors: ["Oscar Heath", "Rohan Alexander"],
+    img: "/papers/silicon-sampling.png",
+    link: "https://arxiv.org/abs/2607.28550",
+  },
+  {
+    name: "Systematic Review of Academic Procrastination Interventions in Computing Higher Education",
+    authors: ["Daniel Cheng", "Oscar Heath", "Daniyaal Farooqi", "Evelyn Chou", "Alice Gao", "Jonathan Calver"],
+    img: "/papers/systematic-lit.png",
+    link: "https://arxiv.org/abs/2604.03248",
+  },
+]
+
 export const projects = [
-      {
+    {
       name: "Guardin",
       img: "/guardin.png",
       description: "Federated Learning platform for healthcare professionals to collaboratively train AI models on sensitive data. First place winner of Toronto Bioinformatics Hackathon 2025.",
